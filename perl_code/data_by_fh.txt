@@ -1,0 +1,12 @@
+hello this file is created using the perl file handling term.
+trying to get the data
+we are doing file handling
+it is being performed in perl
+
+
+hello this file is created using the perl file handling term
+
+hello this file is created using the perl file handling term
+
+hello this file is created using the perl file handling term
+
