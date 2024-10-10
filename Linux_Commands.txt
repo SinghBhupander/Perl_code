@@ -1,0 +1,196 @@
+1. ls - list the files and directories in the current directory
+		ls
+
+2. cd - change the current directory
+		cd dir_name
+
+3. mkdir - create a new directory
+		mkdir rohan
+
+4. rmdir - remove a directory
+		rmdir rohan
+
+5. pwd - print the current working directory
+		pwd
+
+6. cp - copy files or directories
+		#We will copy a file called example.txt from the current directory to a directory called backup
+		cp example.txt backup/
+
+7. mv - move or rename files or directories
+		mv example.txt backup/
+
+8. rm - remove files or directories
+		rm example.txt
+
+9. touch - create a new empty file or update the timestamp of an existing file
+		touch shayan.txt
+
+10. cat - concatenate and display files
+		cat example.txt
+
+11. man - manual for a command
+		man ls
+
+12. htop - an interactive  process viewer and system monitor
+		htop
+
+13. chmod - change the permissions of a file or directory
+		# The first digit represents the owner of the file/directory
+		# The second digit represents the group that the file/directory belongs to
+		# The third digit represents all other users
+		# 0 (no permission)
+		# 1 (execute only)
+		# 2 (write only)
+		# 3 (write and execute)
+		# 4 (read only)
+		# 5 (read and execute)
+		# 6 (read and write)
+		# 7 (read, write, and execute)
+
+		chmod 700 file.txt
+
+14. chown - change the owner of a file or directory
+		chown new_owner example.txt
+
+15. tar - create or extract compressed archive files
+		# x: extract files from an archive
+		# t: list the contents of an archive
+		# r: append files to an existing archive
+		# z: use gzip compression
+		# j: use bzip2 compression
+		# cf: create file
+		#xf: extract file
+		tar cf archive.tar file1 file2 file3
+
+16. gzip - compress files
+		gzip file.txt
+
+17. gunzip - decompress compressed files
+		gunzip file.txt.gz
+
+18. ssh - connect to a remote server securely
+		ssh username@server_address
+
+19. scp - securely copy files between systems
+		scp myfile.txt user@remotehost:/home/user/
+
+20. ping - test network connectivity
+		ping 8.8.8.8
+
+21. ifconfig - display or configure network interfaces
+		ifconfig
+
+22. netstat - display network connection information
+		netstat
+
+23. route - view or configure network routing tables
+		route [options] [add/delete/show]
+
+24. top - display system resource usage and processes
+		top
+
+25. ps - display information about running processes
+		ps aux
+
+26. kill - terminate a process
+		kill [PID]
+27. systemctl - control system services and settings
+		# Start the nginx service
+		systemctl start nginx
+
+		# Check the status of the nginx service
+		systemctl status nginx
+
+		# Stop the nginx service
+		systemctl stop nginx
+
+28. service - control system services
+		service apache2 start
+
+29. useradd - add a new user to the system
+		useradd ravi
+
+30. passwd - change the password for a user
+		passwd ravi
+
+31. userdel - delete a user from the system
+		userdel ravi
+
+32. su - switch user to become another user
+		su john
+
+33. sudo - execute a command as another user or with elevated privileges
+		sudo
+
+34. uptime - display system uptime and load average
+		uptime
+
+35. df - display disk space usage
+		df
+
+36. du - display disk usage by file or directory
+		du
+37. mount - mount a file system
+		sudo mount /dev/sdb1 /mnt/usb
+
+38. umount - unmount a file system
+		sudo umount /mnt/usb
+
+39. date - display or set the system date and time
+		date
+
+40. whoami - display the current user name
+		whoami
+
+41. which - locate a program or command in the system path
+		ls
+
+42. finger - displays all the information about user
+		finger harry
+
+43. uname - display system information
+		uname
+		uname -a
+
+44. history - display a list of previously executed commands
+		history
+
+45. echo - display text or variables to the console
+		echo 'I need Tshirt from codeswear!'
+
+46. tee - redirect output to both a file and the console
+		$ ls | tee file.txt
+
+47. locate - locate any file on the system
+		locate file.txt
+
+48. sort - sort lines of text in a file or input
+		cat file.txt
+		banana
+		orange
+		apple
+		
+		sort file.txt
+		apple
+		banana
+		orange
+49. uniq - remove duplicate lines from a file or input
+		cat file.txt
+		apple
+		orange
+		banana
+		apple
+		banana
+
+		uniq file.txt
+		apple
+		orange
+		banana
+
+50. head/tail - display the first/last few lines of a file or input
+		#display first 10 lines
+		head file.txt
+
+		#display last 10 lines
+		tail file.txt
